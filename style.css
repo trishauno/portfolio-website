@@ -250,16 +250,17 @@ header.sticky {
     color: var(--other-color);
 }
 
-.row i {
-    width: 55px;
+.row a {
+    width: 100px;
     height: 55px;
-    font-size: 27px;
+    font-size: 15px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 5cap;
     color: var(--text-color);
     background: #037221;
+    cursor: pointer;
 }
 
 .row h4 {
@@ -269,10 +270,14 @@ header.sticky {
     line-height: 1.4;
 }
 
-.row :hover {
+.row:hover {
     border: 1px solid var(--main-color);
     transform: translateY(-5px) scale(1.03);
-    cursor: pointer;
+}
+
+.row a:hover {
+    border: 1px solid var(--main-color);
+    transform: translateY(-5px) scale(1.03);
 }
 
 .center-text h2{
